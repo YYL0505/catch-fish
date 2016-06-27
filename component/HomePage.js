@@ -44,6 +44,13 @@ class HomePage extends React.Component {
                     <div className="hot-key-word">
                         <strong>热门关键词:</strong>我也不知道写点什么好。
                     </div>
+
+                    <div className="main-img">
+                        <img src="../assert/image/ic_favorite.png"/>
+                    </div>
+
+                    <div className="divider">
+                    </div>
                 </content>
                 
                 <footer>this is footer</footer>
