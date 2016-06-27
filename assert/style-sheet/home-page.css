@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background: #FBFBFB;
+    align-items: center;
+}
+
+header .welcome {
+    font-size: 12px;
+}
+
+header .free-contact {
+     color: #DD0000;
+     font-size: 14px;
+ }
+
+header .logo-contact {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+header .logo-contact .sec-contact{
+    color: #DD0000;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: row;
+}
+
+header .logo-img {
+    height: 80px;
+    max-width: 50px;
+    width: auto;
+}
+
+header .contact {
+    display: flex;
+    flex-direction: row;
+}
+
+header .contact-img {
+    height: 50px;
+    max-width: 40px;
+    width: auto;
+}
+
+header .contact-text {
+    font-size: 20px;
+}
+
+header .contact-text p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+content {
+
+}
+
+footer {
+    background: #3663C6;
+
+}
