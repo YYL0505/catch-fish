@@ -66,6 +66,40 @@ class HomePage extends React.Component {
                             <img src="../assert/image/ic_favorite.png" alt=""/>
                         </div>
                     </div>
+
+                    <div className="product-list">
+                            <ul className="product-list-nav">
+                                <li className="product-list-nav-title">产品展示</li>
+                                <li>
+                                    <ul className="product-list-nav-category">
+                                        <li>产品列表</li>
+                                        <li>
+                                            <ul>
+                                                <li>HYZ-11</li>
+                                                <li>HYZ-22</li>
+                                                <li>HYZ-33</li>
+                                                <li>HYZ-44</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        <div className="hot-products">
+                            <h4 className="title">热卖产品</h4>
+                            <div className="hot-products-divider">
+
+                            </div>
+                            <div>
+                                <img src="../assert/image/ic_favorite.png" alt=""/>
+                                <img src="../assert/image/ic_favorite.png" alt=""/>
+                                <img src="../assert/image/ic_favorite.png" alt=""/>
+                                <img src="../assert/image/ic_favorite.png" alt=""/>
+                                <img src="../assert/image/ic_favorite.png" alt=""/>
+                            </div>
+                        </div>
+                    </div>
                 </content>
                 
                 <footer>this is footer</footer>
