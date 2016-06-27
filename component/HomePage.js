@@ -28,6 +28,10 @@ class HomePage extends React.Component {
                         </div>
                     </div>
 
+                    
+                </header>
+
+                <content>
                     <div className="action-bar-bg">
                         <div className="action-bar">
                             <a href="#">首页</a>
@@ -40,9 +44,8 @@ class HomePage extends React.Component {
                     <div className="hot-key-word">
                         <strong>热门关键词:</strong>我也不知道写点什么好。
                     </div>
-                </header>
-
-                <content>this is content</content>
+                </content>
+                
                 <footer>this is footer</footer>
             </div>
         );

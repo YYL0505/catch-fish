@@ -58,13 +58,19 @@ header .contact-text p{
     margin-bottom: 0;
 }
 
-header .action-bar-bg {
+content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+content .action-bar-bg {
     width: 100%;
     height: 45px;
     background: #315AF7;
 }
 
-header .action-bar {
+content .action-bar {
     width: 70%;
     height: 100%;
     margin: auto;
@@ -74,22 +80,18 @@ header .action-bar {
     align-items: center;
 }
 
-header .action-bar a{
+content .action-bar a{
     margin: 10px;
     color: #FFFFFF;
     text-decoration: none;
 }
 
-header .hot-key-word {
+content .hot-key-word {
     margin: 8px auto;
     width: 70%;
     height: 20px;
     align-self: flex-start;
     font-size: 12px;
-}
-
-content {
-
 }
 
 footer {
