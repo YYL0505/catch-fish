@@ -27,12 +27,25 @@ class HomePage extends React.Component {
                             </div>
                         </div>
                     </div>
+
+                    <div className="action-bar-bg">
+                        <div className="action-bar">
+                            <a href="#">首页</a>
+                            <a href="#">公司简介</a>
+                            <a href="#">产品展示</a>
+                            <a href="#">联系我们</a>
+                        </div>
+                    </div>
+
+                    <div className="hot-key-word">
+                        <strong>热门关键词:</strong>我也不知道写点什么好。
+                    </div>
                 </header>
 
                 <content>this is content</content>
                 <footer>this is footer</footer>
             </div>
-    );
+        );
     }
 }
 
