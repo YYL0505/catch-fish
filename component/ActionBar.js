@@ -10,7 +10,7 @@ class ActionBar extends React.Component {
                     <Link to="/">首页</Link>
                     <Link to="/company-info/">公司简介</Link>
                     <Link to="/product-list">产品展示</Link>
-                    <a href="#">联系我们</a>
+                    <Link to="/contact-us">联系我们</Link>
                 </div>
             </div>
         );

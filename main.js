@@ -8,6 +8,7 @@ const appHistory = useRouterHistory(createHashHistory)({ queryKey: false })
 import App from './component/App'
 import HotProduct from './component/HotProduct'
 import CompanyInfo from './component/CompanyInfo'
+import Contact from './component/Contact'
 
 render((
     <Router history={appHistory}>
@@ -15,6 +16,7 @@ render((
             <IndexRoute component={HotProduct}/>
             <Route path="/company-info" component={CompanyInfo}/>
             <Route path="/product-list" component={HotProduct}/>
+            <Route path="/contact-us" component={Contact}/>
         </Route>
     </Router>
 ), document.getElementById('app'));

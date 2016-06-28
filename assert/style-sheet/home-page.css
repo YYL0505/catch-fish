@@ -191,15 +191,24 @@ content .product-list .container .company-info{
     flex-direction: column;
 }
 
+content .product-list .container .contact-us{
+    display: flex;
+    flex-direction: row;
+}
+
 content .product-list .container .title{
     color: #315AF7;
 }
 
-content .product-list .hot-products img{
+content .product-list .container img{
     border: groove 1px;
     height: 215px;
     width: auto;
     margin: 5px;
+}
+
+content .product-list .contact-us img{
+    margin-right: 40px;
 }
 
 content .product-list .company-info img{
