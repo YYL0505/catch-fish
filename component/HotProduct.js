@@ -5,7 +5,6 @@ class HotProduct extends React.Component {
 
     render() {
         return (
-
             <div className="hot-products">
                 <h4 className="title">热卖产品</h4>
                 <div className="hot-products-divider">

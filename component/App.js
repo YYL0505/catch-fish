@@ -5,7 +5,6 @@ import Header from './Header'
 import ActionBar from './ActionBar'
 import Homepage from './HomePage'
 import ProductListNav from './ProductListNav'
-import Layout from './Layout'
 import Footer from './Footer'
 
 class App extends React.Component {
@@ -31,7 +30,7 @@ class App extends React.Component {
                     <div className="product-list">
                         <ProductListNav />
 
-                        <Layout />
+                        {this.props.children}
                     </div>
                 </content>
                 <Footer />

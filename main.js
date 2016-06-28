@@ -1,9 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './component/App'
-import HomePage from './component/HomePage'
+import React from 'react'
+import { render } from 'react-dom'
+import { Router, Route, IndexRoute, Link, IndexLink, browserHistory } from 'react-router'
 
-ReactDOM.render(
-    <App />,
-    document.getElementById('app')
-);
+import App from './component/App'
+import HotProduct from './component/HotProduct'
+import CompanyInfo from './component/CompanyInfo'
+
+render((
+    <Router history={browserHistory}>
+        <Route path="/" component={App}>
+            <IndexRoute component={HotProduct}/>
+            <Route path="/company-info" component={CompanyInfo}/>
+        </Route>
+    </Router>
+), document.getElementById('app'));
