@@ -10,7 +10,7 @@ class CompanyInfo extends React.Component {
                 <div className="container-divider"></div>
                 <div className="company-info" >
                     <img src="../assert/image/ic_favorite.png" alt=""/>
-                    <p>沁阳市好雅致渔具研发有限公司是一家集科研、设计、生产、维修、销售为一体的高新技术企业，
+                    <p>沁阳市***渔具研发有限公司是一家集科研、设计、生产、维修、销售为一体的高新技术企业，
                         凭借在遥控船领域的先进理念和成熟的技术服务各位钓友。</p>
                     <p>公司自成立以来，始终坚持“质量第一，诚信经营”的创业理念。
                         致力于将现代高科技手段服务传统垂钓方法.
