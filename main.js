@@ -14,6 +14,7 @@ render((
         <Route path="/" component={App}>
             <IndexRoute component={HotProduct}/>
             <Route path="/company-info" component={CompanyInfo}/>
+            <Route path="/product-list" component={HotProduct}/>
         </Route>
     </Router>
 ), document.getElementById('app'));
