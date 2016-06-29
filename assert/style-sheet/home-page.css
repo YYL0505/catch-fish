@@ -10,9 +10,9 @@ header .welcome {
 }
 
 header .free-contact {
-     color: #DD0000;
-     font-size: 14px;
- }
+    color: #DD0000;
+    font-size: 14px;
+}
 
 header .logo-contact {
     width: 70%;
@@ -23,7 +23,7 @@ header .logo-contact {
     align-items: stretch;
 }
 
-header .logo-contact .sec-contact{
+header .logo-contact .sec-contact {
     color: #DD0000;
 }
 
@@ -53,7 +53,7 @@ header .contact-text {
     font-size: 20px;
 }
 
-header .contact-text p{
+header .contact-text p {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -84,7 +84,7 @@ header .action-bar {
     justify-content: flex-start;
 }
 
-.action-bar a{
+.action-bar a {
     margin: 10px;
     color: #FFFFFF;
     text-decoration: none;
@@ -102,7 +102,8 @@ content .main-img {
     width: 100%;
     background: #ECF2F8;
 }
-content .main-img img{
+
+content .main-img img {
     width: 70%;
     height: auto;
     max-height: 300px;
@@ -115,7 +116,6 @@ content .divider {
     height: 5px;
     background: #2345F9;
 }
-
 
 content .product-character {
     width: 70%;
@@ -175,7 +175,7 @@ content .product-list .product-list-nav .product-list-nav-category {
     font-size: 14px;
 }
 
-content .product-list .product-list-nav-title{
+content .product-list .product-list-nav-title {
     background: #2345F9;
     height: 38px;
     color: #ffffff;
@@ -186,32 +186,32 @@ content .product-list .container {
     font-size: 14px;
 }
 
-content .product-list .container .company-info{
+content .product-list .container .company-info {
     display: flex;
     flex-direction: column;
 }
 
-content .product-list .container .contact-us{
+content .product-list .container .contact-us {
     display: flex;
     flex-direction: row;
 }
 
-content .product-list .container .title{
+content .product-list .container .title {
     color: #315AF7;
 }
 
-content .product-list .container img{
+content .product-list .container img {
     border: groove 1px;
     height: 215px;
     width: auto;
     margin: 5px;
 }
 
-content .product-list .contact-us img{
+content .product-list .contact-us img {
     margin-right: 40px;
 }
 
-content .product-list .company-info img{
+content .product-list .company-info img {
     height: 300px;
     width: auto;
     margin: 5px auto;
@@ -224,7 +224,7 @@ content .container-divider {
     background: #2345F9;
 }
 
-content .newses-container {
+content .newses-container, .topic-msg-container {
     width: 70%;
     margin: auto;
     margin-top: 10px;
@@ -234,17 +234,17 @@ content .newses-container {
     border: groove 1px;
     border-radius: 5px;
     border-top: groove 2px #315AF7;
+    padding: 5px;
 
 }
 
 content .newses-container .news-container {
-    width: 48%;
+    width: 50%;
 }
 
-content .newses-container .title{
+content .newses-container .title {
     color: #315AF7;
 }
-
 
 content .newses-container .divider {
     width: 90%;
@@ -257,24 +257,67 @@ content .newses-container .company-info {
     flex-direction: row;
 }
 
-content .newses-container .company-info p{
+content .newses-container .company-info p {
     font-size: 12px;
     width: 65%;
 }
 
-content .newses-container .company-info img{
+content .newses-container .company-info img {
     height: 90px;
     width: auto;
     margin: 5px;
 }
 
+content .topic-msg-container .topic-container {
+    width: 30%;
+}
+
+content .topic-msg-container .message-container {
+    width: 70%;
+}
+
+content .topic-msg-container .title {
+    color: #315AF7;
+}
+
+content .topic-msg-container .divider {
+    width: 90%;
+    height: 1px;
+    background: gray;
+}
+
+content .topic-msg-container .message {
+    display: flex;
+    flex-direction: row;
+}
+
+content .topic-msg-container .message img {
+    width: 30%;
+    height: auto;
+}
+
+content .topic-msg-container .message table {
+    width: 60%;
+    border-collapse: collapse;
+    border: #CCCCCC 1px dashed;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+content .topic-msg-container .message table td {
+    height: 25px;
+    border: #CCCCCC 1px dashed;;
+}
+
+content .topic-msg-container .message table td.label {
+    text-align: right;
+}
 
 footer {
     display: flex;
     flex-direction: column;
     background: #3663C6;
 }
-
 
 footer .action-bar {
     justify-content: center;

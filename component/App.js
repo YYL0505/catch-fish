@@ -6,6 +6,8 @@ import ActionBar from './ActionBar'
 import Homepage from './HomePage'
 import ProductListNav from './ProductListNav'
 import News from './News'
+import Topic from './Topic'
+import Message from './Message'
 import Footer from './Footer'
 
 class App extends React.Component {
@@ -37,6 +39,11 @@ class App extends React.Component {
                     <div className="newses-container">
                         <News title="新闻动态"/>
                         <News title="行业资讯"/>
+                    </div>
+
+                    <div className="topic-msg-container">
+                        <Topic />
+                        <Message />
                     </div>
                 </content>
                 <Footer />
