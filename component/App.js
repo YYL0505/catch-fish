@@ -8,6 +8,7 @@ import ProductListNav from './ProductListNav'
 import News from './News'
 import Topic from './Topic'
 import Message from './Message'
+import Links from './Links'
 import Footer from './Footer'
 
 class App extends React.Component {
@@ -45,6 +46,8 @@ class App extends React.Component {
                         <Topic />
                         <Message />
                     </div>
+
+                    <Links />
                 </content>
                 <Footer />
             </div>
