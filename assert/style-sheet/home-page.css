@@ -224,6 +224,51 @@ content .container-divider {
     background: #2345F9;
 }
 
+content .newses-container {
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    border: groove 1px;
+    border-radius: 5px;
+    border-top: groove 2px #315AF7;
+
+}
+
+content .newses-container .news-container {
+    width: 48%;
+}
+
+content .newses-container .title{
+    color: #315AF7;
+}
+
+
+content .newses-container .divider {
+    width: 90%;
+    height: 1px;
+    background: gray;
+}
+
+content .newses-container .company-info {
+    display: flex;
+    flex-direction: row;
+}
+
+content .newses-container .company-info p{
+    font-size: 12px;
+    width: 65%;
+}
+
+content .newses-container .company-info img{
+    height: 90px;
+    width: auto;
+    margin: 5px;
+}
+
+
 footer {
     display: flex;
     flex-direction: column;

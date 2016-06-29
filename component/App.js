@@ -5,6 +5,7 @@ import Header from './Header'
 import ActionBar from './ActionBar'
 import Homepage from './HomePage'
 import ProductListNav from './ProductListNav'
+import News from './News'
 import Footer from './Footer'
 
 class App extends React.Component {
@@ -31,6 +32,11 @@ class App extends React.Component {
                         <ProductListNav />
 
                         {this.props.children}
+                    </div>
+
+                    <div className="newses-container">
+                        <News title="新闻动态"/>
+                        <News title="行业资讯"/>
                     </div>
                 </content>
                 <Footer />
